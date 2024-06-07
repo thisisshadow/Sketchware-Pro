@@ -10,6 +10,10 @@
     android:focusable="true"
     android:clickable="true"
     style="?attr/materialCardViewFilledStyle"
+<<<<<<< HEAD
+=======
+    app:cardElevation="0dp"
+>>>>>>> bb069608 (style, fix: Redesign layouts, fix ManageAppConat toolbar title)
     app:cardBackgroundColor="?attr/colorSurfaceContainerHigh">
 
     <LinearLayout
@@ -54,8 +58,12 @@
                 android:id="@+id/lib_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:textAppearance="?attr/textAppearanceBodyLarge"
                 android:textColor="?attr/colorOnSurface" />
+=======
+                android:textAppearance="?attr/textAppearanceBodyLarge" />
+>>>>>>> bb069608 (style, fix: Redesign layouts, fix ManageAppConat toolbar title)
 
             <TextView
                 android:id="@+id/lib_desc"
@@ -81,5 +89,8 @@
             android:visibility="gone" />
 
     </LinearLayout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb069608 (style, fix: Redesign layouts, fix ManageAppConat toolbar title)
 </com.google.android.material.card.MaterialCardView>
