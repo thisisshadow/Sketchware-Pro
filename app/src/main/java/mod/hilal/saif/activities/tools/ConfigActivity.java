@@ -5,6 +5,9 @@ import static mod.SketchwareUtil.getDip;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.res.ColorStateList;
+import android.graphics.drawable.RippleDrawable;
+import android.graphics.drawable.GradientDrawable;
 import android.app.AlertDialog;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -20,6 +23,9 @@ import android.widget.ScrollView;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Button;
+import android.content.DialogInterface;
+import android.view.WindowManager;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,6 +37,7 @@ import com.android.annotations.NonNull;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.materialswitch.MaterialSwitch;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder:
 import com.google.gson.Gson;
 import com.google.gson.JsonParseException;
 
