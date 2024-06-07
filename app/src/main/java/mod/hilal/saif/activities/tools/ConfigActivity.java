@@ -37,7 +37,7 @@ import com.android.annotations.NonNull;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.materialswitch.MaterialSwitch;
 import com.google.android.material.textfield.TextInputLayout;
-import com.google.android.material.dialog.MaterialAlertDialogBuilder:
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.gson.Gson;
 import com.google.gson.JsonParseException;
 
