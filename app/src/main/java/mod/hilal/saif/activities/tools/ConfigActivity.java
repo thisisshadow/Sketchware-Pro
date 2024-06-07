@@ -8,7 +8,6 @@ import android.app.Activity;
 import android.content.res.ColorStateList;
 import android.graphics.drawable.RippleDrawable;
 import android.graphics.drawable.GradientDrawable;
-import android.app.AlertDialog;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -28,6 +27,7 @@ import android.content.DialogInterface;
 import android.view.WindowManager;
 
 import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.widget.NestedScrollView;
