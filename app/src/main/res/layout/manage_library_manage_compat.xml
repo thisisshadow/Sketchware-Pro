@@ -11,12 +11,7 @@
         android:layout_height="?attr/actionBarSize"
         android:contentInsetStart="0dp"
         app:contentInsetStart="0dp"
-<<<<<<< HEAD
-        tools:title="AppCompat and Design" />
-=======
         app:title="@string/design_library_title_appcompat_and_design" />
->>>>>>> bb069608 (style, fix: Redesign layouts, fix ManageAppConat toolbar title)
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -80,7 +75,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
-                android:textColor="#ff757575"
                 android:textSize="14sp"
                 tools:text="@string/design_library_appcompat_description" />
         </LinearLayout>
