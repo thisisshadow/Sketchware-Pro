@@ -10,7 +10,8 @@
     android:focusable="true"
     android:clickable="true"
     style="?attr/materialCardViewFilledStyle"
-    app:cardElevation="0dp" >
+    app:cardBackgroundColor="?attr/colorSurfaceContainerHigh">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,7 +54,8 @@
                 android:id="@+id/lib_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?attr/textAppearanceBodyLarge" /> 
+                android:textAppearance="?attr/textAppearanceBodyLarge"
+                android:textColor="?attr/colorOnSurface" />
 
             <TextView
                 android:id="@+id/lib_desc"
@@ -79,4 +81,5 @@
             android:visibility="gone" />
 
     </LinearLayout>
+
 </com.google.android.material.card.MaterialCardView>
